@@ -4,7 +4,7 @@ import Accordion from './components/Accordion'
 const App = () => {
 
   return (
-    <div>
+    <div className='app-wrapper'>
       <Accordion />
     </div>
   )

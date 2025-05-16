@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    font-family: Outfit;
+}
+
+.app-wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+.accordion-container {
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+    overflow: hidden;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #eee;
+}
+
+.accordion-title {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.2rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    background: #f9f9f9;
+}
+
+.accordion-title:hover {
+    background-color: #f0f0f0;
+}
+
+.accordion-content {
+    padding: 1rem 1.2rem;
+    background-color: #fff;
+    font-size: 1rem;
+    color: #333;
+    animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px);}
+    to {opacity: 1; transform: translateY(0)};
+}
+
+.accordion-message{
+    padding: 1.5rem;
+    text-align: center;
+    color: #999;
+    font-size: 1.1rem;
+}

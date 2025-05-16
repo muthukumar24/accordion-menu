@@ -5,11 +5,11 @@ export const items = [
   },
   {
     title: "React.js Basics",
-    content: "Learn State Management, Context-API",
+    content: "Learn Hooks and State Management such as Context-API, Redux",
   },
   {
     title: "Node.js Basics",
-    content: "Learn to handle CORS Error",
+    content: "Learn to handle CORS Error and write APIs",
   },
   {
     title: "Express.js Basics",
